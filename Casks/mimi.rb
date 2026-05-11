@@ -10,7 +10,7 @@ cask "mimi" do
   depends_on macos: ">= :sequoia"
   depends_on arch: :arm64
   # 自动装 ollama daemon（朋友机器零配置跑本地 LLM）
-  depends_on cask: "ollama"
+  depends_on formula: "ollama"
 
   # bundle 内部叫 MimiApp.app；装到 /Applications/MIMI.app 给用户看
   app "MimiApp.app", target: "MIMI.app"
