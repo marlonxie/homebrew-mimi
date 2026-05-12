@@ -1,6 +1,6 @@
 cask "mimi" do
-  version "0.2.0"
-  sha256 "9d5655ad5cfcb9c6d7a1c722465cc22b90630432f039910a385cbd6cf25c5cc4"
+  version "0.2.1"
+  sha256 "05344a79d925e357ca7438bb0175360f3d97bef86bee5456c3576bddd808f0e4"
 
   url "https://github.com/marlonxie/MIMI/releases/download/v#{version}/MIMI-#{version}-arm64.zip"
   name "MIMI"
